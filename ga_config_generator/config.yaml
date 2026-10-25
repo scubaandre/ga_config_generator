@@ -1,0 +1,12 @@
+name: "Google Assistant Config Generator"
+version: "1.0.0"
+slug: "ga_config_generator"
+description: "A graphical GUI to include/exclude domains and entities for Google Assistant."
+arch:
+  - aarch64
+  - amd64
+  - armv7
+init: false
+hassio_api: true # Grants the app an automatic internal Supervisor Token to call HA APIs
+ingress: true    # Embeds the app securely in the side panel
+panel_icon: "mdi:google-home"
